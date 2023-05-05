@@ -171,7 +171,8 @@
             </div>
 
             <div class="col-sm-3 col-xs-12" style="height: auto; margin-top: 17px;" id="r1">
-                <a onclick="irExe()" href="">
+                <!-- <a onclick="irExe()" href=""> -->
+                <a href="sigesh://" target="_blank">
                     <div class="modulos" style="display: block;">
                             
                         <div style="margin-top:10px !important; text-align:center">

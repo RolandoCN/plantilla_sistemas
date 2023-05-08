@@ -24,7 +24,7 @@
 
                 <div class="tab-content">
                     <div id="home" class="container tab-pane active"><br>
-                        <h4 >LÍNEA PRINCIPAL: 05-2593359 </h4>
+                        <h4 >LÍNEA PRINCIPAL: 05-2593160 </h4>
                         <table id="example" class="display" style="width:100%; font-weight:bold;">
 
                             <thead>
@@ -36,259 +36,138 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>INFORMACIÓN / VENTANILLA ÚNICA</td>
-                                    <td>4500</td>
+                                    <td>GERENCIA</td>
+                                    <td>1082</td>
                                 
                                 </tr>
                                 <tr>
-                                    <td>ATENCIÓN AL USUARIO</td>
-                                    <td>4518</td>
+                                    <td>DIRECCCIÓN ASISTENCIAL</td>
+                                    <td>1024</td>
                                 
                                 </tr>
                                 <tr>
-                                    <td>ADMISIÓN - CALL CENTER</td>
-                                    <td>4630</td>
+                                    <td>ACTIVOS FIJOS</td>
+                                    <td>1074</td>
                                 
                                 </tr>
                                 <tr>
-                                    <td>ADMISIÓN CONSULTA EXTERNA</td>
-                                    <td>4631</td>
+                                    <td>EPIDEMIOLOGÍA/COMUNICACIÓN/ASESORÍA JURÍDICA</td>
+                                    <td>1075</td>
                                 
-                                </tr>
+                                </tr><td>GESTIÓN DE PLANIFICACIÓN/GESTIÓN DE CUIDADOS DE ENFERMERIÍA</td>
+                                    <td>1076</td>
                                 <tr>
-                                    <td>ADMISIÓN EMERGENCIA</td>
-                                    <td>4638</td>
+                                    <td>GESTIÓN FINANCIERA</td>
+                                    <td>1077/1078</td>
                                 </tr>
 
                                 <tr>
-                                    <td>BODEGA GENERAL</td>
-                                    <td>4516</td>
+                                    <td>GESTIÓN SOCIAL/GESTIÓN RED DE PACIENTES</td>
+                                    <td>1079</td>
                                 
                                 </tr>
                                 <tr>
-                                    <td>DIRECCIÓN ADMINISTRATIVA FINANCIERA</td>
-                                    <td>4504</td>
+                                    <td>GESTIÓN DE CALIDAD</td>
+                                    <td>1080</td>
                                 
                                 </tr>
                                 <tr>
-                                    <td>TALENTO HUMANO</td>
-                                    <td>4505</td>
+                                    <td>COMPRAS PÚBLICASA/ADMINISTRACIÓN</td>
+                                    <td>1081</td>
                                 
                                 </tr>
                                 <tr>
-                                    <td>SERVICIOS INSTITUCIONALES</td>
-                                    <td>4507</td>
+                                    <td>FARMACIA</td>
+                                    <td>1049</td>
                                 
                                 </tr>
                                 <tr>
-                                    <td>ASESORÍA JURÍDICA</td>
-                                    <td>4514</td>
+                                    <td>LABORATORIO ÁREA DE TRABAJO Y RECEPCIÓN</td>
+                                    <td>1052/1056</td>
                                 
                                 </tr>
                                 <tr>
-                                    <td>CONSULTORIO POLIVALENTE 1</td>
-                                    <td>4601</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO POLIVALENTE 2</td>
-                                    <td>4602</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO POLIVALENTE 3</td>
-                                    <td>4603</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO POLIVALENTE 4</td>
-                                    <td>4604</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO POLIVALENTE 5</td>
-                                    <td>4605</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO POLIVALENTE 6</td>
-                                    <td>4606</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO POLIVALENTE 7</td>
-                                    <td>4607</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO POLIVALENTE 8</td>
-                                    <td>4608</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO POLIVALENTE 9</td>
-                                    <td>4609</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO POLIVALENTE 10</td>
-                                    <td>4610</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO GINECOLOGÍA 1</td>
-                                    <td>4611</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO GINECOLOGÍA 2</td>
-                                    <td>4612</td>               
-                                </tr>
-                                <tr>
-                                    <td>PROCEDIMIENTOS</td>
-                                    <td>4613</td>               
-                                </tr>
-                                <tr>
-                                    <td>ODONTOLOGÍA</td>
-                                    <td>4614</td>               
-                                </tr>
-
-                                <tr>
-                                    <td>SECRETARÍA GENERAL</td>
-                                    <td>4503</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO ENFERMERÍA 1</td>
-                                    <td>4615</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO ENFERMERÍA 2</td>
-                                    <td>4616</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO MEDICINA FAMILIAR 1</td>
-                                    <td>4617</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO MEDICINA FAMILIAR 2</td>
-                                    <td>4618</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO MEDICINA FAMILIAR 3</td>
-                                    <td>4619</td>               
-                                </tr>
-                                <tr>
-                                    <td>SALUD LABORAL</td>
-                                    <td>4620</td>               
-                                </tr>
-                            
-                                <tr>
-                                    <td>RECEPCIÓN REHABILITACIÓN Y TERAPIA FÍSICA</td>
-                                    <td>4621</td>               
-                                </tr>
-                                <tr>
-                                    <td>CONSULTORIO DE FISIATRÍA</td>
-                                    <td>4622</td>               
-                                </tr>
-                                <tr>
-                                    <td>TERAPIA DE LENGUAJE</td>
-                                    <td>4623</td>               
-                                </tr>
-                                <tr>
-                                    <td>DIRECCIÓN ASISTENCIAL</td>
-                                    <td>4502</td>               
-                                </tr>
-                                <tr>
-                                    <td>FARMACIA CENTRAL</td>
-                                    <td>4632</td>               
-                                </tr>
-                                <tr>
-                                    <td>FARMACIA - EMERGENCIA</td>
-                                    <td>4639</td>               
+                                    <td>RAYOS X/TOMOGRAFÍA</td>
+                                    <td>1057/1053</td>               
                                 </tr>
                                 <tr>
                                     <td>EMERGENCIA</td>
-                                    <td>4640</td>
-                                </tr>
-                                <tr>
-                                    <td>CENTRO OBSTÉTRICO</td>
-                                    <td>4641</td>
-                                </tr>
-                                <tr>
-                                    <td>CENTRO QUIRÚRGICO</td>
-                                    <td>4642</td>
-                                </tr>
-                                <tr>
-                                    <td>MEDICINA INTERNA / ESTACIÓN DE ENFERMERÍA</td>
-                                    <td>3000</td>
-                                </tr>
-                                <tr>
-                                    <td>PEDIATRÍA / ESTACIÓN DE ENFERMERÍA</td>
-                                    <td>3001</td>
-                                </tr>
-                                <tr>
-                                    <td>GINECO Y OBSTETRICÍA / ESTACIÓN DE ENFERMERÍA</td>
-                                    <td>3002</td>
-                                </tr>
-                                <tr>
-                                    <td>NEONATOLOGÍA / ESTACIÓN DE ENFERMERÍA</td>
-                                    <td>3003</td>
-                                </tr>
-                                <tr>
-                                    <td>UCI / ESTACIÓN DE ENFERMERÍA</td>
-                                    <td>3004</td>
-                                </tr>
-                                <tr>
-                                    <td>IMAGENOLOGÍA - RAYOS X</td>
-                                    <td>4636</td>
-                                </tr>
-                                <tr>
-                                    <td>IMAGENOLOGÍA - ECOGRAFÍA</td>
-                                    <td>4637</td>
-                                </tr>
-                                <tr>
-                                    <td>LABORATORIO</td>
-                                    <td>4634</td>
+                                    <td>1061</td>               
                                 </tr>
                                 <tr>
                                     <td>TICS</td>
-                                    <td>4519</td>
+                                    <td>1063</td>               
+                                </tr>
+                                <tr>
+                                    <td>CENTRO QUIRÚRGICO</td>
+                                    <td>1065</td>               
+                                </tr>
+                                <tr>
+                                    <td>CENTRO OBSTÉTRICO</td>
+                                    <td>1066</td>               
+                                </tr>
+                                <tr>
+                                    <td>CENTRO DE ESTERILIZACIÓN</td>
+                                    <td>1067</td>               
+                                </tr>
+                                <tr>
+                                    <td>BODEGA</td>
+                                    <td>1071</td>               
+                                </tr>
+                                <tr>
+                                    <td>ADMISIÓN (ÁREA DE TRABAJO)</td>
+                                    <td>1085</td>               
+                                </tr>
+                                <tr>
+                                    <td>NEONATOLOGÍA</td>
+                                    <td>1086</td>               
+                                </tr>
+                                <tr>
+                                    <td>CIRUGÍA</td>
+                                    <td>1087</td>               
+                                </tr>
+                                <tr>
+                                    <td>GINECOLOGÍA</td>
+                                    <td>1088</td>               
+                                </tr>
+                                <tr>
+                                    <td>MEDICINA INTERNA</td>
+                                    <td>1089</td>               
+                                </tr>
+                                <tr>
+                                    <td>PEDIATRÍA</td>
+                                    <td>1090</td>               
+                                </tr>
+                                <tr>
+                                    <td>SALA DE PRIMERA ACOGIDA</td>
+                                    <td>1062</td>               
+                                </tr>
+
+                                <tr>
+                                    <td>CONSULTA EXTERNA</td>
+                                    <td>1041/1044</td>               
+                                </tr>
+                                <tr>
+                                    <td>UCI</td>
+                                    <td>1091</td>               
+                                </tr>
+                                <tr>
+                                    <td>ODONTOLOGÍA</td>
+                                    <td>1045</td>               
+                                </tr>
+                                <tr>
+                                    <td>ALIMENTACIÓN/COMEDOR</td>
+                                    <td>1070</td>               
+                                </tr>
+                                <tr>
+                                    <td>AUDIOLOGÍA</td>
+                                    <td>1072</td>               
                                 </tr>
                                 <tr>
                                     <td>MANTENIMIENTO</td>
-                                    <td>4517</td>
+                                    <td>1073</td>               
                                 </tr>
-                                <tr>
-                                    <td>GARITA EMERGENCIA</td>
-                                    <td>4530</td>
-                                </tr>
-                                <tr>
-                                    <td>GARITA PARQUEADERO</td>
-                                    <td>4531</td>
-                                </tr>
-                                <tr>
-                                    <td>FINANCIERO</td>
-                                    <td>4509</td>
-                                </tr>
-                                <tr>
-                                    <td>ADQUISICIONES</td>
-                                    <td>4513</td>
-                                </tr>
-                                <tr>
-                                    <td>RECAUDACIÓN</td>
-                                    <td>4510</td>
-                                </tr>
-                                <tr>
-                                    <td>PLANIFICACIÓN</td>
-                                    <td>4512</td>
-                                </tr>
-                                <tr>
-                                    <td>COMUNICACIÓN</td>
-                                    <td>4515</td>
-                                </tr>
-                                <tr>
-                                    <td>CALIDAD</td>
-                                    <td>4520</td>
-                                </tr>
-                                <tr>
-                                    <td>INFECTOLOGÍA</td>
-                                    <td>4521</td>
-                                </tr>
-                                <tr>
-                                    <td>COORDINACIÓN ENFERMERÍA</td>
-                                    <td>4523</td>
-                                </tr>
-
-
+                               
                             </tbody>
                            
                         </table>

@@ -97,22 +97,35 @@
         </div>
     </nav>
 
-    <div class="container" style="max-width:65%; margin-top:30px; margin-bottom:60px">
+    
+
+    <div class="container" style="max-width:65%; margin-top:10px; margin-bottom:60px">
 
         <div class="row">
+
+            <div class="col-sm-12 col-xs-12" style="height: auto; margin-top: 0px;" id="r1">
+                <a onclick="verModal()">
+                    <div class="modulos" style="display: block;">
+                            
+                        
+                        <p style="text-align:center; "><b style="color:#0660fd"><i class="fa fa-phone"></i> Agenda Telefónica</b></p>
+                
+                    </div>
+                </a>
+            </div>
            
-                <div class="col-sm-3 col-xs-12" style="height: auto; margin-top: 7px;" id="r1">
-                    <a target="_blank" href="/sisAli">
-                        <div class="modulos" style="display: block;">
-                                
-                            <div style="margin-top:10px !important; text-align:center">
-                                <img src="imagenes/alimentos.jpg" width="70%" height="70px">
-                            </div>
-                            <p style="text-align:center"><b>SisAli</b></p>
-                    
+            <div class="col-sm-3 col-xs-12" style="height: auto; margin-top: 7px;" id="r1">
+                <a target="_blank" href="/sisAli">
+                    <div class="modulos" style="display: block;">
+                            
+                        <div style="margin-top:10px !important; text-align:center">
+                            <img src="imagenes/alimentos.jpg" width="70%" height="70px">
                         </div>
-                    </a>
-                </div>
+                        <p style="text-align:center"><b>SisAli</b></p>
+                
+                    </div>
+                </a>
+            </div>
             
             <div class="col-sm-3 col-xs-12" style="height: auto; margin-top: 7px;" id="r1">
                 <a target="_blank" href="/sisPer">
@@ -417,40 +430,96 @@
         
     </div>
 
+    <?php
+        @include('modalAgenda.php');
+    ?>
+
     <footer style="background-color:#0d6efd ; height:50px">
         <center><b style="color:white">Derechos reservados © <?php echo date('Y')?> Tics</b></center>
     </footer>
 
-    <?php
-        function irExe2(){
-            // exec("C:\SIGESH\SIGESH.exe");
-        }
-    ?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    
+   
 </body>
 
 </html>
+
+
+
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 <script
   src="https://code.jquery.com/jquery-3.6.4.js"
   integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script> 
+<script type="text/javascript" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script> 
+
+
+
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.print.min.js"></script>
 <script>
-    function irPagina(tipo){
-        if(tipo=="SisPer")
-        window.open('http://172.10.150.198:81/sisPer', '_blank')
-        else if(tipo=="SisAli")
-            window.open('http://172.10.150.198:81/sisAli', '_blank')
-        else
-            window.open('http://172.10.150.198:81/sisVehi', '_blank')
+
+    function verModal(){
+      
+        $('#myModal').modal('show');
     }
 
-    function irExe(){
-        $.get("sigesh.php", function(data){
 
-        })
-    
-        
-       
-    } 
+
+    $(document).ready(function () {
+
+        $('#example').DataTable({
+            Title:'HOSPITAL GENERAL NAPOLEON DAVILA CORDOVAR',
+            "order": [[ 0, 'asc' ]],
+            "language": {
+                    "lengthMenu": "MOSTRAR _MENU_ REGISTROS POR PÁGINA",
+                    "zeroRecords": "NO HAY REGISTROS",
+                    "info": "PÁGINA _PAGE_ DE _PAGES_ PÁGINA/S",
+                    "infoEmpty": "No records available",
+                    "infoFiltered": "(FILTRADO DE _MAX_ REGISTROS TOTALES)",
+                    "search": "FILTRAR",
+                    "paginate": {
+                        "first":      "PRIMERO",
+                        "last":       "ÚLTIMO",
+                        "next":       "SIGUIENTE",
+                        "previous":   "PREVIO"
+                    } 
+            }, dom: 'Bfrtip',
+            buttons: [
+                {
+                    extend: 'copy',
+                    text: 'COPIAR',title:'HOSPITAL NAPOLEON DAVILA CORDOVAR',
+                    messageTop: 'UNIDAD DE TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN'
+                }, {
+                    extend: 'excel',
+                    text: 'CONVERTIR A EXCEL',title:'HOSPITAL NAPOLEON DAVILA CORDOVAR',
+                    messageTop: 'UNIDAD DE TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN'
+                }, {
+                    extend: 'pdf',
+                    text: 'CONVERTIR A PDF', messageTop: 'HOSPITAL NAPOLEON DAVILA CORDOVAR',title:'HOSPITAL NAPOLEON DAVILA CORDOVAR',
+                    messageTop: 'UNIDAD DE TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN'
+
+                },{
+                    extend: 'print',
+                    text: 'IMPRIMIR',title:'HOSPITAL NAPOLEON DAVILA CORDOVAR',
+                    messageTop: 'UNIDAD DE TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN'
+                }
+            ]
+        });
+    });
+
+    function cerrarModal(){
+        $('#myModal').modal('hide');
+    }
+
 </script>

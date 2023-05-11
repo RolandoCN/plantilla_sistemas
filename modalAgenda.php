@@ -63,7 +63,7 @@
 
                                 <tr>
                                     <td>GESTIÓN SOCIAL/GESTIÓN RED DE PACIENTES</td>
-                                    <td>1079</td>
+                                    <td>1023</td>
                                 
                                 </tr>
                                 <tr>
@@ -136,7 +136,7 @@
                                 </tr>
                                 <tr>
                                     <td>PEDIATRÍA</td>
-                                    <td>1090</td>               
+                                    <td>1090/1030</td>               
                                 </tr>
                                 <tr>
                                     <td>SALA DE PRIMERA ACOGIDA</td>
@@ -148,7 +148,7 @@
                                     <td>1041/1044</td>               
                                 </tr>
                                 <tr>
-                                    <td>UCI</td>
+                                    <td>TERAPÍA INTENSIVA</td>
                                     <td>1091</td>               
                                 </tr>
                                 <tr>
@@ -166,6 +166,11 @@
                                 <tr>
                                     <td>MANTENIMIENTO</td>
                                     <td>1073</td>               
+                                </tr>
+
+                                 <tr>
+                                    <td>GESTIÓN DE TALENTO HUMANO</td>
+                                    <td>1079</td>               
                                 </tr>
                                
                             </tbody>

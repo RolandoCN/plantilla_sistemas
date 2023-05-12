@@ -205,6 +205,22 @@
 
 
             <div class="col-sm-3 col-xs-12" style="height: auto; margin-top: 17px;" id="r1">
+            
+                <a href="siglab://" target="_blank">
+                    <div class="modulos" style="display: block;">
+                            
+                        <div style="margin-top:10px !important; text-align:center">
+                            <img src="imagenes/lab.ico" width="70%" height="70px">
+                        </div>
+                        <p style="text-align:center"><b>SigLab</b></p>
+                
+                    </div>
+                </a>
+
+            </div>
+
+
+            <div class="col-sm-3 col-xs-12" style="height: auto; margin-top: 17px;" id="r1">
                 <a target="_blank" href="https://sgrdacaa.msp.gob.ec/">
                     <div class="modulos" style="display: block;">
                             

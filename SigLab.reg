@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SigLab]
+@="URL:SigLab"
+"EditFlags"=dword:00210000
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\SigLab\DefaultIcon]
+@="C:\SigLab\\SigLab.WinUI,1"
+
+[HKEY_CLASSES_ROOT\SigLab\shell]
+
+[HKEY_CLASSES_ROOT\SigLab\shell\open]
+
+[HKEY_CLASSES_ROOT\SigLab\shell\open\command]
+@="C:\\SigLab\\SigLab.WinUI.exe"

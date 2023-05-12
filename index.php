@@ -108,7 +108,12 @@
                     <div class="modulos" style="display: block;">
                             
                         
-                        <p style="text-align:center; "><b style="color:#0660fd"><i class="fa fa-phone"></i> Agenda Telefónica</b></p>
+                        <p style="text-align:center; ">
+                            <b style="color:#0660fd">
+                            <!-- <b style="color:red"> -->
+                                <i class="fa fa-phone" style="color:red"></i> Agenda Telefónica
+                            </b>
+                        </p>
                 
                     </div>
                 </a>

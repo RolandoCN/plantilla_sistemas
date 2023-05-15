@@ -82,6 +82,7 @@
         }
        
     </style>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -97,15 +98,45 @@
         </div>
     </nav>
 
-    
-
     <div class="container" style="max-width:65%; margin-top:10px; margin-bottom:60px">
 
         <div class="row">
 
             <div class="col-sm-12 col-xs-12" style="height: auto; margin-top: 0px;" id="r1">
-                <a onclick="verModal()">
-                    <div class="modulos" style="display: block;">
+                <a >
+                    <div class="modulos" style="display: block; border: 1px solid #198754;">
+                            
+                        
+                        <p style="text-align:center; ">
+                            <b style="color:#0660fd; font-size:18px">
+                            <!-- <b style="color:red"> -->
+                                Plataformas De Trabajo
+                            </b>
+                        </p>
+                
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-sm-6 col-xs-12" style="height: auto; margin-top: 7px;" id="r1">
+                <a onclick="verModalContig()">
+                    <div class="modulos" style="display: block;  border: 1px solid #198754;"">
+                            
+                        
+                        <p style="text-align:center; ">
+                            <b style="color:#0660fd">
+                            <!-- <b style="color:red"> -->
+                                <i class="fa fa-exclamation-circle" style="color:red"></i> Plan Contigencia
+                            </b>
+                        </p>
+                
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-xs-12" style="height: auto; margin-top: 7px;" id="r1">
+                <a onclick="verModalAgenda()">
+                    <div class="modulos" style="display: block;  border: 1px solid #198754;"">
                             
                         
                         <p style="text-align:center; ">
@@ -443,16 +474,13 @@
 
             </div>
 
-         
-
-            
         </div>
-    
-        
+            
     </div>
 
     <?php
         @include('modalAgenda.php');
+        @include('modalContigencia.php');
     ?>
 
     <footer style="background-color:#0d6efd ; height:50px">
@@ -490,12 +518,14 @@
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.print.min.js"></script>
 <script>
 
-    function verModal(){
-      
+    function verModalAgenda(){
         $('#myModal').modal('show');
+        
     }
 
-
+    function verModalContig(){
+        $('#modalContigencia').modal('show');
+    }
 
     $(document).ready(function () {
 
@@ -539,7 +569,7 @@
         });
     });
 
-    function cerrarModal(){
+    function cerrarModalAgenda(){
         $('#myModal').modal('hide');
     }
 

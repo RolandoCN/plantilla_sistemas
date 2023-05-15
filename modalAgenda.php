@@ -6,7 +6,7 @@
             <div class="modal-header">
                 <h4 class="modal-title">AGENDA TELEFÓNICA HOSPITAL GENERAL DR. NAPOLEÓN DÁVILA CÓRDOVA</h4></br>
                 
-                <button type="button" class="close" data-dismiss="modal" onclick="cerrarModal()">&times;</button>
+                <button type="button" class="close" data-dismiss="modal" onclick="cerrarModalAgenda()">&times;</button>
 
             </div>
         
@@ -185,7 +185,7 @@
         
             <!-- Modal footer -->
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="cerrarModal()">Cerrar</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="cerrarModalAgenda()">Cerrar</button>
             </div> 
         </div>
     </div>

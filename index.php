@@ -573,4 +573,8 @@
         $('#myModal').modal('hide');
     }
 
+    function cerrarModalCont(){
+        $('#modalContigencia').modal('hide');
+    }
+
 </script>

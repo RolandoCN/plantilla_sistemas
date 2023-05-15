@@ -4,7 +4,7 @@
             <!-- Modal Header -->
             <div class="modal-header">
                 <h4 class="modal-title">PLAN DE CONTINGENCIA MAYO - 2023</h4></br>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <button type="button" class="close" data-dismiss="modal" onclick="cerrarModalCont()">&times;</button>
             </div>
             
             <!-- Modal body -->
@@ -20,7 +20,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="cerrarModalCont()">Cerrar</button>
             </div> 
         </div>
     </div>

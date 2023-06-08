@@ -316,7 +316,7 @@
                         <div style="margin-top:10px !important; text-align:center">
                             <img src="imagenes/sri.jpg" width="70%" height="70px">
                         </div>
-                        <p style="text-align:center"><b>Deudas SRI</b></p>
+                        <p style="text-align:center"><b>Consulta SRI</b></p>
                 
                     </div>
                 </a>

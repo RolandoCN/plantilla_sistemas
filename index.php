@@ -309,6 +309,20 @@
 
             </div>
 
+            <div class="col-sm-3 col-xs-12" style="height: auto; margin-top: 17px;" id="r1">
+                <a target="_blank" href="https://srienlinea.sri.gob.ec/sri-en-linea/SriPagosWeb/ConsultaDeudasFirmesImpugnadas/Consultas/consultaDeudasFirmesImpugnadas">
+                    <div class="modulos" style="display: block;">
+                            
+                        <div style="margin-top:10px !important; text-align:center">
+                            <img src="imagenes/sri.jpg" width="70%" height="70px">
+                        </div>
+                        <p style="text-align:center"><b>Deudas SRI</b></p>
+                
+                    </div>
+                </a>
+
+            </div>
+
 
             <div class="col-sm-3 col-xs-12" style="height: auto; margin-top: 17px;" id="r1">
                 <a target="_blank" href="https://sive.msp.gob.ec/Account/Login">
